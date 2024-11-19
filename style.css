@@ -23,6 +23,7 @@ a:visited {
 #bookbutton {
   background-color:#FF5000;
   color:white;
+ border:none;
   font-weight:bold;
   height:50px;
   width:250px;
