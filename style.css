@@ -7,3 +7,15 @@ logo {
  height:auto;
   width:auto;
 }
+
+a:active {
+  background-color:pink;
+}
+
+a:hover {
+  background-color:green;
+}
+
+a:visited {
+  background-color:green;
+}
