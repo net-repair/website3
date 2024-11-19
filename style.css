@@ -22,6 +22,11 @@ a:active {
   background-color:pink;
 }
 
+#nationwide-coverage {
+font-weight:200;
+color:#FF5000;
+}
+ 
 a:hover {
   background-color:green;
 }
