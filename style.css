@@ -19,3 +19,23 @@ a:hover {
 a:visited {
   background-color:green;
 }
+
+#bookbutton {
+  background-color:black;
+  color:white;
+  font-weight:bold;
+  height:50px;
+  width:250px;
+  font-size:20px;
+  border-radius:10px;
+}
+
+#bookbutton:hover {
+  background-color:white;
+  color:black;
+  font-weight:bold;
+  height:50px;
+  width:250px;
+  font-size:20px;
+  border-radius:5px;
+}
