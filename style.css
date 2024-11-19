@@ -21,7 +21,7 @@ a:visited {
 }
 
 #bookbutton {
-  background-color:black;
+  background-color:#FF5000;
   color:white;
   font-weight:bold;
   height:50px;
@@ -40,17 +40,10 @@ a:visited {
   border-radius:5px;
 }
 
-#callbutton {
-  background-color:black;
-  color:white;
-  font-weight:bold;
-  height:50px;
-  width:250px;
-  font-size:20px;
-  border-radius:10px;
+
 }
 
-#callbutton:hover {
+#callbutton {
   background-color:white;
   color:black;
   font-weight:bold;
