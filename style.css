@@ -59,3 +59,24 @@ a:visited {
   font-size:20px;
   border-radius:5px;
 }
+
+
+#home-howwework {
+background-color:blue;
+height:500px;
+}
+    
+#home-whatwedo {
+background-color:green;
+height:500px;
+}
+
+#home-faq {
+background-color:red;
+height:500px;
+}
+
+#home-backtotop {
+background-color:blue;
+height:200px;
+}
