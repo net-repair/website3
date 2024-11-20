@@ -22,6 +22,10 @@ nav a {
  color:black;
 }
 
+nav a:not(:last-child) {
+  margin-right:40px;
+}
+
 a:active {
   background-color:pink;
 }
