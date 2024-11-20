@@ -55,6 +55,7 @@ a:visited {
   width:250px;
   font-size:20px;
   border-radius:10px;
+  margin-right:10px;
 }
 
 #bookbutton:hover {
