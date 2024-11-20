@@ -5,8 +5,15 @@ padding:10px;
 color:white;
 }
 
-.active a {
+.active:hover {
 background-color:Black;
+border-radius: 5px;
+padding:10px;
+color:white;
+}
+
+.active a {
+background-color:white;
 border-radius: 5px;
 padding:12px;
 color:white;
