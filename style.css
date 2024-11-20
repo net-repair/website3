@@ -31,11 +31,11 @@ color:#FF5000;
 }
  
 a:hover {
-  background-color:green;
+  background-color:lightgrey;
 }
 
 a:visited {
-  background-color:green;
+  background-color:grey;
 }
 
 #bookbutton {
@@ -74,7 +74,7 @@ a:visited {
 
 
 #home-howwework {
-background-color:blue;
+background-color:white;
 height:500px;
 }
     
@@ -84,12 +84,12 @@ height:500px;
 }
 
 #home-faq {
-background-color:red;
+background-color:lightgrey;
 height:500px;
 }
 
 #home-backtotop {
-background-color:blue;
+background-color:ghostwhite;
 height:200px;
 }
 
