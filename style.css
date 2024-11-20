@@ -67,9 +67,6 @@ a:visited {
   border-radius:5px;
 }
 
-
-}
-
 #callbutton {
   background-color:white;
   color:black;
@@ -79,7 +76,6 @@ a:visited {
   font-size:20px;
   border-radius:5px;
 }
-
 
 #home-howwework {
 background-color:white;
@@ -108,4 +104,8 @@ list-style: none;
 
 #bottompagelinks a {
 text-decoration:none;
+}
+
+home-landing {
+height:700px;
 }
