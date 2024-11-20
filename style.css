@@ -131,3 +131,8 @@ bottompagelinks a:not(:last-child) {
 home-landing {
 height:700px;
 }
+
+#companyreglink {
+color:#FF5000;
+text-decoration:none;
+}
