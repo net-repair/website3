@@ -1,3 +1,5 @@
+
+
 body {
 margin:0 auto;
 width:1200px;
@@ -15,6 +17,7 @@ nav {
  margin-top: 30px;
  font-size: 20px;
  float:right;
+ list-style: none;
 }
 
 nav a {
@@ -100,4 +103,5 @@ height:200px;
 
 #bottompagelinks {
 float:right;
+list-style: none;
  }
