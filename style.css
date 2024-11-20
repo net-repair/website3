@@ -124,11 +124,11 @@ text-decoration:none;
 color:#FF5000;
 }
 
-bottompagelinks a:not(:last-child) {
+#bottompagelinks a:not(:last-child) {
   margin-right:20px;
 }
 
-home-landing {
+#home-landing {
 height:700px;
 }
 
