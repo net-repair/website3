@@ -104,5 +104,8 @@ height:200px;
 #bottompagelinks {
 float:right;
 list-style: none;
+}
+
+#bottompagelinks a {
 text-decoration:none;
- }
+}
