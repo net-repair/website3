@@ -51,7 +51,8 @@ color:#FF5000;
 }
  
 a:hover {
-  background-color:lightgrey;
+  background-color:black;
+  color:white;
 }
 
 a:visited {
