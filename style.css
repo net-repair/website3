@@ -104,10 +104,12 @@ height:200px;
 #bottompagelinks {
 float:right;
 list-style: none;
+color:#FF5000;
 }
 
 #bottompagelinks a {
 text-decoration:none;
+color:#FF5000;
 }
 
 home-landing {
