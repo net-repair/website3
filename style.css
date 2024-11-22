@@ -161,3 +161,7 @@ background-color:black;
 color:white;
 width:100%;
 }
+
+#content-wrapper {
+width:1200px;
+}
