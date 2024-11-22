@@ -7,6 +7,12 @@
 nav {
 display:none;
 }
+
+.content-wrapper {
+width:390px;
+margin:0 auto;
+background-color:yellow;
+}
   
 #logo {
 width:100%;
