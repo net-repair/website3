@@ -179,4 +179,9 @@ color:white;
 #home-workwithus {
 background-image: url("worker.png");
 background-color:black;
+color:white;
+}
+
+#home-workwithus a {
+color:white
 }
