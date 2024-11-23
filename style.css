@@ -117,33 +117,33 @@ height:800px;
 }
 
 
-#home1-whatwedo {
+#home-whatwedo {
 background-color:white;
 height:800px;
 }
 
-#home2-howitworks {
+#home-howitworks {
 background-color:#F7F7F7;
 height:500px;
 margin-top:300px;
 height:1000px; 
 }
 
-#home3-faq {
+#home-faq {
 background-color:#F7F7F7;
 height:500px;
 height:1500px; 
 background-color:black;
 }
 
-#home4-backtotop {
+#home-backtotop {
 background-color:white;
 height:200px;
 }
 
-#home5-workwithus {
+#home-workwithus {
 background-image: url("worker.png");
-background-color:black;
+background-color:red;
 color:white;
 height:600px;
 text-align:center;
@@ -155,35 +155,29 @@ font-weight:bold;
 text-align:center;
 }
 
-#home6-getourapp a {
+#home-getourapp a {
 background-color:blue;
 font-weight:bold;
 text-align:center;
  height:900px;
 }
 
-#home7-getourapp a {
-background-color:blue;
-font-weight:bold;
-text-align:center;
-
-}
  
-#home8-latestnews a {
+#home-latestnews a {
 background-color:blue;
 font-weight:bold;
 text-align:center;
 height:900px;
 }
 
-#home10-reviews a {
+#home-reviews a {
 background-color:green;
 font-weight:bold;
 text-align:center;
 height:900px;
 }
 
-#home10-whychooseus a {
+#home-whychooseus a {
 background-color:orange;
 font-weight:bold;
 text-align:center;
