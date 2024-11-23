@@ -181,8 +181,11 @@ background-image: url("worker.png");
 background-color:black;
 color:white;
 height:300px;
+text-align:center;
 }
 
 #home-workwithus a {
 color:white;
+font-weight:bold;
+text-align:center;
 }
