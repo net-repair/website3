@@ -112,26 +112,82 @@ a:visited {
   margin-right:10px;
 }
 
+#home0-landing {
+height:800px;
+}
 
-#home-howwework {
+
+#home1-whatwedo {
+background-color:white;
+height:800px;
+}
+
+#home2-howitworks {
 background-color:#F7F7F7;
 height:500px;
 margin-top:300px;
-}
-    
-#home-whatwedo {
-background-color:white;
-height:500px;
+height:1000px; 
 }
 
-#home-faq {
+#home3-faq {
 background-color:#F7F7F7;
 height:500px;
+height:1500px; 
+background-color:black;
 }
 
-#home-backtotop {
+#home4-backtotop {
 background-color:white;
 height:200px;
+}
+
+#home5-workwithus {
+background-image: url("worker.png");
+background-color:black;
+color:white;
+height:600px;
+text-align:center;
+}
+
+#home-workwithus a {
+color:white;
+font-weight:bold;
+text-align:center;
+}
+
+#home6-getourapp a {
+background-color:blue;
+font-weight:bold;
+text-align:center;
+ height:900px;
+}
+
+#home7-getourapp a {
+background-color:blue;
+font-weight:bold;
+text-align:center;
+
+}
+ 
+#home8-latestnews a {
+background-color:blue;
+font-weight:bold;
+text-align:center;
+height:900px;
+}
+
+#home10-reviews a {
+background-color:green;
+font-weight:bold;
+text-align:center;
+height:900px;
+}
+
+#home10-whychooseus a {
+background-color:orange;
+font-weight:bold;
+text-align:center;
+height:900px;
 }
 
 #bottompagelinks {
@@ -149,9 +205,7 @@ color:#FF5000;
   margin-right:20px;
 }
 
-#home-landing {
-height:700px;
-}
+
 
 #companyreglink {
 color:#FF5000;
@@ -176,16 +230,4 @@ background-color:black;
 color:white;
 }
 
-#home-workwithus {
-background-image: url("worker.png");
-background-color:black;
-color:white;
-height:600px;
-text-align:center;
-}
 
-#home-workwithus a {
-color:white;
-font-weight:bold;
-text-align:center;
-}
