@@ -2,6 +2,17 @@ workwithus-toplink {
 padding-top:15px;
 }
 
+topbar-email {
+padding-top:15px;
+float:right;
+}
+
+topbar-phonenumber {
+padding-top:15px;
+float:right;
+}
+
+
 #mainline {
 font-size:59px;
 }
