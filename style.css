@@ -45,6 +45,14 @@ margin: 0px;
 padding: 0px;
 }  
 
+#loginpagebody {
+margin:0 auto;
+font-family:"sohne-var","Helvetica Neue","Arial",sans-serif;
+margin: 0px;
+padding: 0px;
+background-color:black;
+}  
+
 #logo {
  width:20%;
  height:20%;
