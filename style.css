@@ -1,13 +1,13 @@
-workwithus-toplink {
+#workwithus-toplink {
 padding-top:15px;
 }
 
-topbar-email {
+#topbar-email {
 padding-top:15px;
 float:right;
 }
 
-topbar-phonenumber {
+#topbar-phonenumber {
 padding-top:15px;
 float:right;
 }
