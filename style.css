@@ -224,6 +224,14 @@ margin:0 auto;
 background-color:yellow;
 }
 
+.content-wrapper:nth-child(1) {
+background-color:black;
+}
+
+.content-wrapper:nth-child(6) {
+background-color:black;
+}
+
 #topbar {
 margin:0 auto;
 background-color:black;
