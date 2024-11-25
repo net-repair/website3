@@ -236,6 +236,10 @@ background-color:yellow;
 background-color:black;
 }
 
+.content-wrapper:nth-child(2) {
+background-color:ghostwhite;
+}
+
 .content-wrapper:nth-child(6) {
 background-color:black;
 }
