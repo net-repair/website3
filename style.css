@@ -191,6 +191,8 @@ height:900px;
 float:right;
 list-style: none;
 color:#FF5000;
+margin-top: 15px;
+
 }
 
 #bottompagelinks a {
@@ -228,4 +230,9 @@ background-color:black;
 color:white;
 }
 
-
+#copywrite {
+margin:0 auto;
+background-color:black;
+color:white;
+margin-top:15px;
+}
