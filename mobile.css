@@ -58,6 +58,18 @@ background-color:pink;
   border-radius:5px;
   margin-right:10px;
 }  
-  
+
+#topbar-email {
+text-decoration:none;
+float:right;
+color:ff5000;
+}
+
+#topbar-email a {
+display:none;
+}
+
+#topbar-phonenumber {
+display:none;
 }
 
