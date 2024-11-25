@@ -1,6 +1,7 @@
 #subfooter-column {
 width:25%;
 background-color:blue;
+float:left;
 }
  
 #topbar-clickhere {
