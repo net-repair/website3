@@ -295,6 +295,12 @@ background-color:ghostwhite;
 background-color:black;
 }
 
+.content-wrapper2 {
+width:1200px;
+margin:0 auto;
+background-color:white;
+}
+
 #topbar {
 margin:0 auto;
 background-color:black;
