@@ -6,6 +6,7 @@ background-color:blue;
 #topbar-clickhere {
 color:#ff5000;
 font-weight:bold;
+
  }
 
 
@@ -18,14 +19,18 @@ color:ff5000;
 }
 
 #topbar-email {
-
+text-decoration:none;
 float:right;
+ color:ff5000;
 }
 
 #topbar-phonenumber {
-
+margin-right:10px;
 float:right;
+color:ff5000;
+text-decoration:none;
 }
+
 #topbar-clickhere {
 color:ff5000:
 }
