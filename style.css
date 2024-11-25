@@ -24,12 +24,21 @@ float:right;
 color:ff5000;
 }
 
+#topbar-email a {
+color:ff5000;
+}
+
 #topbar-phonenumber {
 margin-right:20px;
 float:right;
 color:ff5000;
 text-decoration:none;
 }
+
+#topbar-phonenumber a {
+color:ff5000;
+}
+
 
 #topbar-clickhere {
 color:ff5000:
