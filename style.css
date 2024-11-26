@@ -1,3 +1,13 @@
+#subfooter {
+height:500px;
+}
+
+
+a #topbar-email {
+color:ff5000;
+}
+
+
 a #topbar-email {
 color:ff5000;
 }
@@ -132,7 +142,7 @@ a:hover {
 }
 
 a:visited {
-  background-color:black;
+  background-color:green;
 }
 
 #bookbutton {
@@ -149,7 +159,7 @@ a:visited {
 }
 
 #bookbutton:hover {
-  background-color:black;
+  background-color:pink;
   color:white;
   font-weight:bold;
   height:50px;
@@ -171,7 +181,7 @@ a:visited {
 }
 
 #callbutton:hover {
-  background-color:black;
+  background-color:yellow;
   color:white;
   font-weight:bold;
   height:50px;
