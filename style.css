@@ -177,10 +177,9 @@ a:visited {
 nav2 {
  margin-top: 36px;
  font-size: 15px;
- float:right;
  list-style: none;
  position: sticky;
-  top: 0;
+ top: 0;
  background-color:orange;
 }
 }
