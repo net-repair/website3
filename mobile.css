@@ -8,7 +8,7 @@ display:none;
 }
 
 .content-wrapper {
-width:600px;
+width:100%;
 margin:0 auto;
 background-color:pink;
 }
