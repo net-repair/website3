@@ -4,6 +4,7 @@
     width:100%;
   }
 
+  
 
 
   
@@ -56,6 +57,20 @@ background-color:pink;
 
 }
 
+#callbutton a {
+  background-color:white;
+  color:black;
+  font-weight:bold;
+  height:45px;
+  width:95%;
+  font-size:20px;
+  border-radius:7px;
+  box-sizing: content-box;
+  text-decoration: none;
+  color: black;
+}
+
+ 
 #callbutton:hover {
   background-color:black;
   color:white;
