@@ -16,6 +16,7 @@ nav {
 display:none;
 }
 
+  
 .content-wrapper {
 width:90%;
 margin:0 auto;
@@ -23,6 +24,7 @@ background-color:pink;
 }
 
 #bookbutton {
+  display:none;
   background-color:#FF5000;
   color:white;
  border:none;
@@ -37,6 +39,7 @@ background-color:pink;
 }
 
 #bookbutton:hover {
+  display:none;
   background-color:black;
   color:white;
   font-weight:bold;
@@ -50,6 +53,7 @@ background-color:pink;
 }
 
 #callbutton {
+  display:none;
   background-color:white;
   color:black;
   font-weight:bold;
@@ -62,6 +66,7 @@ background-color:pink;
 }
 
 #callbutton a {
+  display:none;
   background-color:white;
   color:black;
   font-weight:bold;
