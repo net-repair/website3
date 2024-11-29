@@ -1,9 +1,13 @@
-
 @media only screen and (max-width: 600px) {
   body {
     width:100%;
   }
 
+  
+#formoreinfo {
+display:none;
+}
+  
 #mainline {
 font-size:44px;
 }
