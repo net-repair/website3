@@ -420,6 +420,13 @@ clear:left;
 
 #subfooter {
 background-color:yellow;
+ text-decoration:none;
+ color:#ff5000;
 }
 
+#subfooter h1 {
+background-color:yellow;
+ text-decoration:none;
+ color:#ff5000;
+}
 
