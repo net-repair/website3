@@ -121,10 +121,10 @@ display:none;
   width   : 20px;
   height  : 14px;
   cursor  : pointer;
- position:relative;
+  position:relative;
   background-color:pink;
-  margin-top:200px;
-  margin-right:165px;
+  margin-right: -1px;
+  margin-top: -45px;
   
 }
 
