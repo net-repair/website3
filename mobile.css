@@ -120,6 +120,7 @@ display:none;
 
 
 .menu-icon {
+  display:block;
   margin  : 20px auto;
   width   : 20px;
   height  : 14px;
