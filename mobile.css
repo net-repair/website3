@@ -115,3 +115,55 @@ display:none;
 display:none;
 }
 
+
+.menu-icon {
+  margin  : 20px auto;
+  width   : 20px;
+  height  : 14px;
+  cursor  : pointer;
+ position:relative;
+  background-color:pink;
+  margin-top:200px;
+  margin-right:165px;
+  
+}
+
+.menu-icon span {
+  background-color: black;
+  height          : 3px;
+  position        : absolute;
+  width           : 100%;
+  left            : 0;
+  transition      : all 0.3s ease;
+  border-radius   : 10px;
+}
+
+.menu-icon span:first-child {
+  top: 0;
+}
+
+.menu-icon span:nth-child(2) {
+  top: 6px;
+}
+
+.menu-icon span:last-child {
+  top: 12px;
+}
+
+.menu-icon:hover span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon:hover span:first-child,
+.menu-icon:hover span:last-child {
+  top             : 6px;
+  background-color: black;
+}
+
+.menu-icon:hover span:first-child {
+  transform: rotate(45deg);
+}
+
+.menu-icon:hover span:last-child {
+  transform: rotate(-45deg);
+}
