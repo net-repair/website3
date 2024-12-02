@@ -444,7 +444,7 @@ background-color:yellow;
 }
 
 .col-1 {
-background-color:yellow;
+
 width:25%;
 float:left;
 }
@@ -454,7 +454,7 @@ width:60%;
 }
 
 .col-2 {
-background-color:blue;
+
 width:25%;
 float:left;
 text-decoration:none;
@@ -466,14 +466,13 @@ list-style-type: none
 }
 
 .col-3 {
-background-color:orange;
+
 width:25%;
 float:left;
 list-style-type: none
 }
 
 .col-4 {
-background-color:pink;
 width:25%;
 float:left;
 }
