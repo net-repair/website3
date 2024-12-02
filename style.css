@@ -449,6 +449,12 @@ width:25%;
 float:left;
 }
 
+.col-1 img {
+background-color:yellow;
+width:25%;
+float:left;
+}
+
 .col-2 {
 background-color:blue;
 width:25%;
