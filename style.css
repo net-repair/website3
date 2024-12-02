@@ -460,10 +460,16 @@ float:left;
 text-decoration:none;
 }
 
+
+.col-2 ul {
+list-style-type: none
+}
+
 .col-3 {
 background-color:orange;
 width:25%;
 float:left;
+list-style-type: none
 }
 
 .col-4 {
