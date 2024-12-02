@@ -70,6 +70,16 @@ a #topbar-phonenumber {
 color:#ff5000;
 }
 
+.subfooter-container {
+width:1200px;
+margin:0 auto;
+background-color:yellow;
+}
+
+background-color:blue;
+float:left;
+}
+
 .subfooter-column {
 width:21%;
 background-color:blue;
