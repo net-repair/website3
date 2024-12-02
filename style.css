@@ -445,23 +445,25 @@ background-color:yellow;
 
 .col-1 {
 background-color:green;
+width:25%;
+float:left;
 }
 
 .col-2 {
 background-color:blue;
-width:33%;
+width:25%;
 float:left;
 }
 
 .col-3 {
 background-color:orange;
-width:33%;
+width:25%;
 float:left;
 }
 
 .col-4 {
 background-color:pink;
-width:33%;
+width:25%;
 float:left;
 }
 
