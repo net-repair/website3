@@ -439,12 +439,16 @@ background-color:green;
 
 .col-2 {
 background-color:blue;
+width:30%
 }
 
 .col-3 {
 background-color:orange;
+width:30%
+ 
 }
 
 .col-4 {
 background-color:pink;
+width:30%
 }
