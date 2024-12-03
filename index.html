@@ -264,3 +264,23 @@ Complete the form below and we’ll get back to you.</p>
 includeHTML();
 </script>
 
+
+let menuBtn = document.querySelector('.menu-icon');
+let menu = document.querySelector('.mobilenav');
+let menuItem = document.querySelectorAll('.nav__link');
+
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})
+
+
+menuItem.forEach (function(menuItem) {
+  menuItem.addEventListener('click',function(){
+          menuBtn.classList.toggle('active');
+          menu.classList.toggle('active');
+  })
+})
+
+
+
