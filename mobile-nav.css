@@ -1,1 +1,131 @@
+header {
+	display: flex;
+	justify-content: flex-end;
+  background-color:blue;
+}
 
+
+/* Гамбургер иконка */
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+  background-color:red;
+}
+
+/* Меню, которое будет появляться */
+.mobilenav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+  background:#F7F7F7;
+	transform: translateX(100%);
+	transition: ease-in 0.1s; 
+ 
+}
+
+.mobilenav.active {
+	transform: translateX(0);
+}
+
+.mobilenav .nav__list_item {
+	list-style-type: none;
+}
+
+#navlogo {
+ clear:both;
+}
+
+a {
+  color:black;
+  text-decoration:none;
+  font-family:helvetica;
+  margin-bottom:100px;
+  font-size:25px;
+}
+
+li {
+  margin-bottom:20px;
+}
+
+a:hover{
+  color:#FF5000;
+}
+
+#logo {
+  width:30%;
+  clear:both;
+  padding-right:100px;
+}
+
+#logo2 {
+  width:30%;
+  float:left;
+  padding-right:490px;
+}
+
+button {
+  width:95%;
+  margin-bottom:10px;
+  background-color:#ff5000;
+  border:none;
+  color:white;
+  height:40px;
+  font-size:17px;
+  border-radius:7px;
+  
+}
+
+#button2 {
+  width:95%;
+  margin-bottom:10px;
+  border:none;
+  height:40px;
+  font-size:17px;
+  border-radius:7px;
+  background-color:white;
+  color:black;
+  border:2px solid black;
+}
+
+button:hover {
+  width:95%;
+  margin-bottom:10px;
+  background-color:black;
+  border:none;
+  color:white;
+  height:40px;
+  font-size:17px;
+  border-radius:7px;
+}
+
+#button2:hover {
+  width:95%;
+  margin-bottom:10px;
+  border:none;
+  height:40px;
+  font-size:17px;
+  border-radius:7px;
+  background-color:black;
+  color:white;
+  border:2px solid black;
+}
+
+ul {
+  padding:0px;
+  margin-bottom:15px;
+}
+
+.container {
+  margin:0 auto;
+  width:500px;
+}
+
+#booknow {
+  margin-top:15px;
+}
