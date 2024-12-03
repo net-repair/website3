@@ -507,3 +507,7 @@ list-style:none;
 #socialcol {
 list-style:none;
 }
+
+#burger-menu {
+display:none;
+}
