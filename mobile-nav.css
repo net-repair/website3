@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
  body {
   margin:0;
-  background: #1e3c72; 
+  
   background: -webkit-linear-gradient(to right, #2a5298, #1e3c72); 
   background: linear-gradient(to right, #2a5298, #1e3c72); 
 }
