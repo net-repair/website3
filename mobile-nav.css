@@ -1,131 +1,95 @@
-header {
-	display: flex;
-	justify-content: flex-end;
-  background-color:blue;
+body {
+  margin:0;
+  background: #1e3c72; 
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72); 
+  background: linear-gradient(to right, #2a5298, #1e3c72); 
+}
+#burger-menu {
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: 50px;
+  overflow: visible;
+  position: relative;
+  z-index:2;
+}
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  background: #fff;
+  display: block;
+  height: 4px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+#burger-menu span:before,
+#burger-menu span:after {
+  content: "";
+}
+#burger-menu span {
+  right: 0px;
+  top: 13px;
+  width: 27px;
+}
+#burger-menu span:before {
+  left: 0px;
+  top: -10px;
+  width: 16px;
+}
+#burger-menu span:after {
+  left: 0px;
+  top: 10px;
+  width: 20px;
 }
 
-
-/* Гамбургер иконка */
-.menu-btn {
-	width: 30px;
-	height: 30px;
-	position: relative;
-	z-index:2;
-	overflow: hidden;
-  background-color:red;
+#burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+}
+#burger-menu.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+}
+#burger-menu.close span:after {
+  top: 0px;
+  left:0;
+  transform: rotate(90deg);
+  opacity:0;
+  width:0;
 }
 
-/* Меню, которое будет появляться */
-.mobilenav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 15px;
-  background:#F7F7F7;
-	transform: translateX(100%);
-	transition: ease-in 0.1s; 
- 
-}
-
-.mobilenav.active {
-	transform: translateX(0);
-}
-
-.mobilenav .nav__list_item {
-	list-style-type: none;
-}
-
-#navlogo {
- clear:both;
-}
-
-a {
-  color:black;
-  text-decoration:none;
-  font-family:helvetica;
-  margin-bottom:100px;
-  font-size:25px;
-}
-
-li {
-  margin-bottom:20px;
-}
-
-a:hover{
-  color:#FF5000;
-}
-
-#logo {
-  width:30%;
-  clear:both;
-  padding-right:100px;
-}
-
-#logo2 {
-  width:30%;
-  float:left;
-  padding-right:490px;
-}
-
-button {
-  width:95%;
-  margin-bottom:10px;
-  background-color:#ff5000;
-  border:none;
-  color:white;
-  height:40px;
-  font-size:17px;
-  border-radius:7px;
+#menu{
+  z-index:1;
+  min-width:100%;
+  min-height:100%;
+  position: fixed;
+  top:0;
+  height:0;
+  visibility: hidden;
+  opacity: 0;
+  text-align:center;
+  padding-top:20px;
+  transition: all 0.3s ease-in-out;
   
 }
 
-#button2 {
-  width:95%;
-  margin-bottom:10px;
-  border:none;
-  height:40px;
-  font-size:17px;
-  border-radius:7px;
-  background-color:white;
-  color:black;
-  border:2px solid black;
+#menu.overlay{
+  visibility: visible;
+  opacity: 1;
+  padding-top:100px;
+  background:rgba(0,0,0,0.5);
 }
 
-button:hover {
-  width:95%;
-  margin-bottom:10px;
-  background-color:black;
-  border:none;
-  color:white;
-  height:40px;
-  font-size:17px;
-  border-radius:7px;
+#menu li{
+  list-style:none;
 }
-
-#button2:hover {
-  width:95%;
-  margin-bottom:10px;
-  border:none;
-  height:40px;
-  font-size:17px;
-  border-radius:7px;
-  background-color:black;
-  color:white;
-  border:2px solid black;
-}
-
-ul {
-  padding:0px;
-  margin-bottom:15px;
-}
-
-.container {
-  margin:0 auto;
-  width:500px;
-}
-
-#booknow {
-  margin-top:15px;
+#menu a{
+  color:#fff;
+  display:block;
+  font-size: 32px;
+  margin-bottom:30px;
+  text-decoration:none;
 }
