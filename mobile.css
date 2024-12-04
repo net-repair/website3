@@ -3,6 +3,10 @@
     width:100%;
   }
 
+
+#buttonlinkcontainer {
+text-align:center;
+}
   
 #formoreinfo {
 display:none;
