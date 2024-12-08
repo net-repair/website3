@@ -19,6 +19,7 @@ font-size:44px;
 #logo {
 width:58%;
 padding-top:8px;
+z-index:1;
 }
   
 nav {
