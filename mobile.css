@@ -20,6 +20,7 @@ font-size:7.8vw;
 width:58%;
 padding-top:8px;
 z-index:1;
+position:relative;
 }
   
 nav {
