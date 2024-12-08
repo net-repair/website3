@@ -229,3 +229,7 @@ display:block;
 #topbar {
 display:none;
 }
+
+#footerlogo {
+width:58%;
+}
