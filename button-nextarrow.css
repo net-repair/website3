@@ -1,11 +1,13 @@
 .btn-darrow {
-  padding:600px;
-  background: #ff5000;
+  backgound:none;
   border: none;
   outline: none;
   padding: 0;
-  position: relative;
+  position: absolute;
   transform: rotate(90deg);
+  left:258px;
+  top:90px;
+  background-color:#ff5000;
   
   svg {
   
@@ -25,6 +27,7 @@
     svg:nth-child(1) {
       will-change: transform;
       animation: floating 1.5s ease infinite;
+      background-color:#ff5000;
       
     }
     
@@ -58,4 +61,15 @@
   100% {
     opacity: 0;
   }
+}
+
+
+#booknow{
+background-color:#ff5000;
+width:300px;
+margin:30px;  
+border-radius:7px;
+border:none;
+color:white;
+font-size:30px;
 }
