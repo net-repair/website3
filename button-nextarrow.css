@@ -1,14 +1,14 @@
 .btn-darrow {
-  backgound:none;
+  background: none;
   border: none;
   outline: none;
   padding: 0;
-  position: absolute;
+  position: relative;
   transform: rotate(90deg);
-  left:258px;
-  top:90px;
-  background-color:#ff5000;
   
+  margin-top:25px;
+  margin-left:232px;
+  padding-top:0px;
   svg {
   
     &:nth-child(1) {
@@ -27,7 +27,6 @@
     svg:nth-child(1) {
       will-change: transform;
       animation: floating 1.5s ease infinite;
-      background-color:#ff5000;
       
     }
     
@@ -63,13 +62,27 @@
   }
 }
 
+.container {
+  background-color:#ff5000;
+  height:70px;
+  border-radius:10px;
+  margin-top:100px;
+  width:300px;
+  color:white;
+  position:relative;
+}
 
-#booknow{
-background-color:#ff5000;
-width:300px;
-margin:30px;  
-border-radius:7px;
-border:none;
-color:white;
-font-size:30px;
+p {
+ 
+  width:65%;
+  padding-top:4.5%;
+  position:absolute;
+  top:1px;
+  font-weight:500;
+  font-size:27px;
+  margin-left:35px;
+}
+
+* {
+ /* border:1px solid black;*/
 }
