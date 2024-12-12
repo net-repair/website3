@@ -72,12 +72,12 @@
   position:relative;
 }
 
-#bookaservicebutton2 {
+#p-bookaservicebutton2 {
  
   width:65%;
   padding-top:4.5%;
   position:absolute;
-  top:1px;
+  top:-22px;
   font-weight:500;
   font-size:27px;
   margin-left:35px;
