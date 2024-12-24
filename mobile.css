@@ -240,7 +240,8 @@ display:block;
 }
 
 #burgermenu {
-padding:0px;
+padding-left:20px;
+padding-right:20px;
 }
 
 #menu {
