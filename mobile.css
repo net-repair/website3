@@ -3,7 +3,7 @@
     width:100%;
   }
 
-container {
+.container {
     background-color: #ff5000;
     height: 60px;
     border-radius: 10px;
