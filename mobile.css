@@ -249,7 +249,11 @@ display:block;
 }
 
 #menu a {
-font-size:18px;
+font-size:20px;
+}
+
+#menu a.active {
+color:#fff;
 }
 
 #topbar {
