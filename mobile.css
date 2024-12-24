@@ -239,6 +239,10 @@ height:575px;
 display:block;
 }
 
+#burgermenu {
+padding:0px;
+}
+
 #menu {
 display:block;
 }
