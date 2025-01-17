@@ -2,38 +2,47 @@
 <html lang="en">
   <head>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="mobile-nav.css">
+    <link rel="stylesheet" href="button-nextarrow.css">
+    
     <meta charset="UTF-8">
     <title>Net Repair - Home</title>
   </head>
 
-  <div id="topbar">
+   <div id="menu">
+                      <ul id="burgermenu">
+                          <a href="index.html" class="active">HOME</a>
+                          <a href="about.html">ABOUT</a>
+                          <a href="services.html">SERVICES</a>
+                          <a href="contact.html">CONTACT</a>
+                            
+                     </ul>
+                   <!--  <div id="buttonlinkcontainer">    
+                          <button id="bookbutton" onclick="location.href='https://research.typeform.com/to/nxsrgO1y" type="button">
+                               Apply Now
+                                                                           
+
+                          </button>
+                          <button id="callbutton" type="button">
+                              <a href="tel:8882192787" id="callbuttonlink">Learn More</a>
+                          </button></br></br>
+                      </div>-->
+    </div>
+
+    <div id="topbar">
           <div class="content-wrapper">
               <div id="workwithus-toplink">
-                    Want to work with us?  <a href="work-with-us.html" id="topbar-clickhere"><b>click here</b></a> for more information
+                    Service Provider? work with us! <a href="work-with-us.html" id="topbar-clickhere"><b>click here</b></a>
                     <a href="team@netrepair.co.uk" id="topbar-email"><img src="mail.png">team@netrepair.co.uk</a>
                     <a href="phonenumber" id="topbar-phonenumber"><img src="phone.png">07827810448</a>
               </div>  
           </div>
     </div> 
-  
-  <div class="content-wrapper">
-        <header>
-        <img id="logo" src="logo.png">  
-        
-        <nav>
-              <a href="index.html">HOME</a>
-              <a href="about.html">ABOUT</a>
-              <a href="services.html">SERVICES</a>
-              <a href="contact.html" class="active">CONTACT</a>
-              <!--a href="login.html">LOG IN</a>-->
-              <!--<a href="login.html">LATEST</a>-->
-        </nav>
-        </header>
-        
-        <body>
-         <h2>We'd love to here from you</h1>
+  <body>
+        <h2>We'd love to here from you</h1>
 
 <form>
           <label for="fullname"><b>Full Name</b> (Required)</label></br>
@@ -69,11 +78,61 @@
 
          <p><b>Live Chat/Whatsapp</b></br>
          <a href="livechat.html" class="simplelink">Click Here</a></br></br>
-        </body>
-      
-</div>
+  
+  </body>
 
-         <footer>  
+  
+  
+  <section id="subfooter">
+              <div class="subfooter-container">
+                  <div class="col-1">
+                      <img id="footerlogo" src="logo.png">
+                     <p id="footermission">We provide reliable, high-quality repair services</br> ensuring quick solutions</p>
+                  </div>  
+              <div class="col-2">
+             
+                              <h5 id="socialtitle">SOCIAL</h5>
+                          <ul id="socialcol">
+                          <li id="sociallist"><a href="link1" class="footerlink">Facebook</a></li>
+                            <li id="sociallist"><a href="link2" class="footerlink">Twitter</a></li>
+                            <li id="sociallist"><a href="link3" class="footerlink">Linked In</a></li>
+                          </ul>
+                          <h5 id="socialtitle">RESOURCES</h5>
+                          <ul id="socialcol">
+                            <li id="sociallist"><a href="link1" class="footerlink">Join Network</a></li>
+                            </li><a href="sitemap.html">Sitemap</a></li></br>
+                          </ul>
+        </div>
+        <div class="col-3">
+                        <h5>LEGAL</h5>
+                      <ul>
+                          </li><a href="privacy-policy.html">Privacy Policy</a></li></br>
+                          </li><a href="cookie-policy.html">Cookie Policy</a></li></br>
+                          </li><a href="terms-and-conditions.html">Terms & Conditions</a></li></br>
+                          
+                      </ul>
+      </div>
+        <div class="col-4">
+         <h5>SERVICES</h5>
+                      <ul>
+                          </li><a href="services/appliance.html">Appliance</a></li></br>
+                          </li><a href="services/plumbing.html">Plumbing</a></li></br>
+                          </li><a href="services/electrical.html">Electrical</a></li></br>
+                          </li><a href="services/heating-&-gas.html">Heating & Gas</a></li></br>
+                      </ul>
+        </div>
+
+   </div>
+    
+  </section>
+ 
+  
+  
+  
+  
+  
+  
+  <footer>  
   <div class="content-wrapper">
           
            <!--   <li id="bottompagelinks">
@@ -82,10 +141,27 @@
               <a href="terms-and-conditions.html">Terms & Conditions</a>
               <a href="sitemap.html">Sitemap</a>
               </li>-->
-              <p id="copyright"><b>© Net Repair 2024</b> - Company Number <a id="companyreglink" href="https://find-and-update.company-information.service.gov.uk/company/14826942">14826942</a></p>
+              <p id="copyright"><b>© Net Repair 2024</b> - <a id="companyreglink" href="https://find-and-update.company-information.service.gov.uk/company/14826942">14826942</a></p>
     </div> 
 </footer>
+
 </html>
+
+<script>
+
+
+
+var burgerMenu = document.getElementById('burger-menu');
+var overlay = document.getElementById('menu');
+burgerMenu.addEventListener('click',function(){
+  this.classList.toggle("close");
+  overlay.classList.toggle("overlay");
+});
+
+
+</script>
+
+
 
 
 
