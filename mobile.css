@@ -17,9 +17,9 @@
   .container2 {
 
     width:100%;
-    border:1px solid #ff5000;
-    position:relative;
+    border:2px solid #ff5000;
     margin-bottom:10px;
+    font-weight:600;
 }
 
 
