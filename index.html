@@ -292,12 +292,23 @@ Complete the form below and we’ll get back to you.</p>
     </div> 
 </footer>
 
+<!--Cookie Banner-->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Poppins:700" rel="stylesheet">
+<div id="cookie-popup">
+ 
+  <p>We use cookies to improve your experiance and for marketing. By continuing to browse you accept that. Read our <a href=cookies.html><strong>cookie policy</strong></a> or <a href="cookiesmanage.html"><strong>manage cookies</strong></a></p>
+  <button id="acceptbutton">Accept all</button>
+  <button id="rejectbutton">Reject all</button>
+</div>
+<!--End of cookie banner-->
+
+  
 </html>
 
 <script>
 
 
-
+//burger menu
 var burgerMenu = document.getElementById('burger-menu');
 var overlay = document.getElementById('menu');
 burgerMenu.addEventListener('click',function(){
@@ -305,5 +316,12 @@ burgerMenu.addEventListener('click',function(){
   overlay.classList.toggle("overlay");
 });
 
+//cookie popup
+$("#cookie-popup button").click(function() {
+  $("#cookie-popup").fadeOut();
+});
 
 </script>
+
+
+
