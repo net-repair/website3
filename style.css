@@ -1,9 +1,15 @@
 #inactive {
-color:white;
+color:#ff5000;
+border: none;
+outline:none;
+}
+
+#inactive {
+color:#ff5000;
 }
 
 #active {
-color:white;
+color:#fff;
 }
 
 #dcactive {
