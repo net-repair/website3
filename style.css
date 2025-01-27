@@ -1,6 +1,8 @@
 #dcactive {
 background-color:#ff5000;
 color:white;
+border-radius:10px;
+border:none;
 }
 
 a {
