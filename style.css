@@ -570,3 +570,81 @@ color:black;
 color:black;
 text-decoration:none;
 }
+
+
+    .services-section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .services-header {
+      margin-bottom: 40px;
+      text-align: left;
+    }
+
+    .services-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .service-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    .service-icon {
+      font-size: 24px;
+      color: #0078d4;
+      display: flex;
+      align-items: center;
+    }
+
+    .service-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .service-description {
+      display: none;
+      font-size: 14px;
+      color: #555555;
+    }
+
+    .see-more-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 15px;
+      background-color: #ff5000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .see-more-btn:hover {
+      background-color: #005a9e;
+    }
+
+    .see-more-btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .services-container {
+        grid-template-columns: 1fr;
+      }
+    }
