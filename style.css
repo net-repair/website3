@@ -648,3 +648,59 @@ text-decoration:none;
         grid-template-columns: 1fr;
       }
     }
+
+.coverage-section {
+    background-color: #ff5000;
+    color: #ff5000;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.coverage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  background-color:lightgrey;
+  border-radius:20px;
+}
+
+.coverage-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-left:150px;
+    padding-bottom:40px;
+}
+
+.coverage-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.coverage-column li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    colour: #ff5000;
+}
+
+.coverage-column li:hover {
+    colour: #ffd1b3;
+    cursor: pointer;
+}
+
+body {
+  background-color:white;
+}
+
+h2 {
+  padding-top:40px;
+  padding-left:150px;
+}
